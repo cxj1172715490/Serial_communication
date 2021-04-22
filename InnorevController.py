@@ -1,18 +1,5 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-'''
-Created on 2017-09-03
-
-@author: zhouql
-changed xuhh:
-
-1. add threading lock when operate serial.
-2. changed the function:read_input,read_output,read_ALL_input(add exception handle)
-
-Changed hxl 2020/08/20:
-1. Add in_putss
-2. Add out_put
-'''
 
 import time
 import serial
